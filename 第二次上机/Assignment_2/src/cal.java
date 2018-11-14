@@ -22,7 +22,7 @@ public class cal {
         PrintDaysAccordingToMonthAndYear();
     }
 
-    static void IsInputValid(String[] inputString) {
+    private static void IsInputValid(String[] inputString) {
         try {
             int input_month = Integer.valueOf(inputString[0]);
             int input_year = Integer.valueOf(inputString[1]);
@@ -35,26 +35,26 @@ public class cal {
         }
     }
 
-    static void SetMonthAndYear() {
-        int defultYear = calendar.get(Calendar.YEAR);
-        int defultMonth = calendar.get(Calendar.MONTH);
-        calendar.set(defultYear, defultMonth, 1);
+    private static void SetMonthAndYear() {
+        int defaultYear = calendar.get(Calendar.YEAR);
+        int defaultMonth = calendar.get(Calendar.MONTH);
+        calendar.set(defaultYear, defaultMonth, 1);
     }
 
-    static void SetMonthAndYear(int input_month, int input_year) {
+    private static void SetMonthAndYear(int input_month, int input_year) {
         calendar.set(input_year, input_month - 1, 1);
     }
 
-    static void PrintMonthAndYear() {
+    private static void PrintMonthAndYear() {
         SimpleDateFormat toPrint = new SimpleDateFormat("MMMM yyyy", Locale.ENGLISH);
         System.out.println(toPrint.format(calendar.getTime()));
     }
 
-    static void PrintSunToSat() {
+    private static void PrintSunToSat() {
         System.out.println("Su Mo Tu We Th Fr Sa");
     }
 
-    static void PrintDaysAccordingToMonthAndYear() {
+    private static void PrintDaysAccordingToMonthAndYear() {
         int daysInMonth = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
         int firstDayOfFirstWeek = calendar.get(Calendar.DAY_OF_WEEK);
         int offset = 3 * (firstDayOfFirstWeek - 1);
@@ -63,12 +63,12 @@ public class cal {
         PrintDays(daysInMonth, firstDayOfFirstWeek);
     }
 
-    static void PrintOffset(int inputOffset) {
+    private static void PrintOffset(int inputOffset) {
         for (int i = 0; i < inputOffset; i++)
             System.out.print(" ");
     }
 
-    static void PrintDays(int inputDaysInMonth, int inputFirstDayOfFirstWeek) {
+    private static void PrintDays(int inputDaysInMonth, int inputFirstDayOfFirstWeek) {
         for (int i = 0; i < inputDaysInMonth; i++) {
             if (i < 9)
                 System.out.print(" " + (i + 1) + " ");
@@ -79,7 +79,7 @@ public class cal {
         }
     }
 
-    static void ChangeLine(int counter, int inputFirstDayOfFirstWeek) {
+    private static void ChangeLine(int counter, int inputFirstDayOfFirstWeek) {
         if ((counter + inputFirstDayOfFirstWeek) % 7 == 0)
             System.out.println();
     }
