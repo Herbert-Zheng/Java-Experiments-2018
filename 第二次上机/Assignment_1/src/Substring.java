@@ -12,10 +12,8 @@ public class Substring {
             int endIndex = beginIndex + Integer.valueOf(args[2]);
             System.out.println(args[0].substring(beginIndex, endIndex));
         } catch (Exception e) {
-            System.err.println("Please input correct arguments:");
+            System.err.println("Please input arguments as follow format:");
             System.err.println("'String' 'Starting index' 'Length of substring'");
         }
-
-
     }
 }
