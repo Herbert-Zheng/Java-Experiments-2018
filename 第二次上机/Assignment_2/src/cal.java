@@ -26,7 +26,7 @@ public class cal {
 
         PrintMonthAndYear();
         PrintSunToSat();
-        PrintDays();
+        PrintDaysAccrodingToMonthAndYear();
     }
 
     // With no argument
@@ -47,31 +47,37 @@ public class cal {
         System.out.println(toPrint.format(calendar.getTime()));
     }
 
-    // Print from Su to Sa
     static void PrintSunToSat() {
         System.out.println("Su Mo Tu We Th Fr Sa");
     }
 
-    // Print days according to month and year
-    static void PrintDays() {
-        int daysOfMonth = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
-        int firstDayInWeek = calendar.get(Calendar.DAY_OF_WEEK);
+    static void PrintDaysAccrodingToMonthAndYear() {
+        int daysInMonth = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
+        int firstDayOfFirstWeek = calendar.get(Calendar.DAY_OF_WEEK);
+        int offset = 3 * (firstDayOfFirstWeek - 1);
 
-        // Offset
-        for (int i = 0; i < 3 * (firstDayInWeek - 1); i++)
+        PrintOffset(offset);
+        PrintDays(daysInMonth, firstDayOfFirstWeek);
+    }
+
+    static void PrintOffset(int inputOffset) {
+        for (int i = 0; i < inputOffset; i++)
             System.out.print(" ");
+    }
 
-        for (int i = 0; i < daysOfMonth; i++) {
-            // Print spaces according to date
+    static void PrintDays(int inputDaysInMonth, int inputFirstDayOfFirstWeek) {
+        for (int i = 0; i < inputDaysInMonth; i++) {
             if (i < 9)
                 System.out.print(" " + (i + 1) + " ");
             else
                 System.out.print((i + 1) + " ");
 
-            // Change line
-            if ((i + firstDayInWeek) % 7 == 0) {
-                System.out.println();
-            }
+            ChangeLine(i, inputFirstDayOfFirstWeek);
         }
+    }
+
+    static void ChangeLine(int counter, int inputFirstDayOfFirstWeek) {
+        if ((counter + inputFirstDayOfFirstWeek) % 7 == 0)
+            System.out.println();
     }
 }
