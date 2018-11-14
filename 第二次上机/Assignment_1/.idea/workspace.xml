@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd7ab762-5f17-46bc-b470-459fd09fbe52" name="Default Changelist" comment="Java experiment Homework2 Assignment1.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Substring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="116cde99-667d-4be0-a968-b7b9bc2231a4" name="Java experiment Homework2 Assignment1:" comment="Java experiment Homework2 Assignment1:&#10;Add &quot;try-catch&quot; to handle errors.">
@@ -21,7 +20,7 @@
     <session id="1833853957">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="2" />
@@ -32,13 +31,13 @@
         <counts>
           <entry key="dummy" value="11" />
           <entry key="java" value="255" />
-          <entry key="txt" value="108" />
+          <entry key="txt" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="255" />
-          <entry key="PLAIN_TEXT" value="119" />
+          <entry key="PLAIN_TEXT" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Substring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="209">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -85,7 +84,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -124,7 +123,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542203573157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542203941417" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -146,7 +145,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Substring" />
       <module name="Assignment_1" />
-      <option name="PROGRAM_PARAMETERS" value="asdfasdfasdf" />
+      <option name="PROGRAM_PARAMETERS" value="ABCDEFG 2 5" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -172,7 +171,7 @@
       <workItem from="1540817087747" duration="652000" />
       <workItem from="1541408298615" duration="122000" />
       <workItem from="1541669677776" duration="560000" />
-      <workItem from="1542202048657" duration="1682000" />
+      <workItem from="1542202048657" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="Java experiment Homework2 Assignment1:&#10;Add &quot;try-catch&quot; to handle errors.">
       <created>1542203168837</created>
@@ -181,11 +180,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542203168837</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java experiment Homework2 Assignment1.&#10;Change error report notice.">
+      <created>1542203786049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542203786049</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3016000" />
+    <option name="totallyTimeSpent" value="3331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -197,9 +203,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14989059" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.073027715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,12 +215,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3257329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -263,7 +270,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java experiment Homework2 Assignment1:&#10;Add &quot;try-catch&quot; to handle errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Java experiment Homework2 Assignment1:&#10;Add &quot;try-catch&quot; to handle errors." />
+    <MESSAGE value="Java experiment Homework2 Assignment1.&#10;Change error report notice." />
+    <option name="LAST_COMMIT_MESSAGE" value="Java experiment Homework2 Assignment1.&#10;Change error report notice." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../第一次上机/Assignment_2/src/CSS.java">
@@ -275,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Substring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="209">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>

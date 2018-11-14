@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce855ed-78bf-430f-81ba-06029c45925d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment_1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fce855ed-78bf-430f-81ba-06029c45925d" name="Default Changelist" comment="Java experiment.&#10;Homework 2, assignment 2:&#10;Fix some more typos.">
       <change beforePath="$PROJECT_DIR$/../Assignment_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment_1/out/production/Assignment_1/Substring.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1/out/production/Assignment_1/Substring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_1/src/Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_1/src/Substring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,13 +70,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1157">
-              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1507#1508#0" expanded="true" />
                 <element signature="e#1565#1566#0" expanded="true" />
-                <element signature="method#ChangeLine#0;class#cal#0" />
               </folding>
             </state>
           </provider>
@@ -148,7 +146,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542203022753" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542204784144" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment_1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -194,7 +192,7 @@
       <workItem from="1541669657092" duration="1597000" />
       <workItem from="1541774465118" duration="2667000" />
       <workItem from="1542012797064" duration="626000" />
-      <workItem from="1542166937084" duration="6437000" />
+      <workItem from="1542166937084" duration="7577000" />
     </task>
     <task id="LOCAL-00001" summary="Java experiment">
       <created>1542176715102</created>
@@ -235,7 +233,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25486000" />
+    <option name="totallyTimeSpent" value="26626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,9 +245,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29212254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,7 +262,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" visible="true" weight="0.33223686" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32899022" />
@@ -325,13 +324,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1157">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1507#1508#0" expanded="true" />
             <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="method#ChangeLine#0;class#cal#0" />
           </folding>
         </state>
       </provider>

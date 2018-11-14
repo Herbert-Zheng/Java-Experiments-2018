@@ -28,7 +28,6 @@ public class cal {
             int input_year = Integer.valueOf(inputString[1]);
             SetMonthAndYear(input_month, input_year);
         } catch (NumberFormatException exce) {
-            exce.printStackTrace();
             System.err.println("Please input valid arguments: 'month year'.");
             System.err.println("Now print this month's calender.");
             SetMonthAndYear();
