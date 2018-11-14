@@ -19,7 +19,7 @@ public class cal {
 
         PrintMonthAndYear();
         PrintSunToSat();
-        PrintDaysAccrodingToMonthAndYear();
+        PrintDaysAccordingToMonthAndYear();
     }
 
     static void IsInputValid(String[] inputString) {
@@ -54,7 +54,7 @@ public class cal {
         System.out.println("Su Mo Tu We Th Fr Sa");
     }
 
-    static void PrintDaysAccrodingToMonthAndYear() {
+    static void PrintDaysAccordingToMonthAndYear() {
         int daysInMonth = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
         int firstDayOfFirstWeek = calendar.get(Calendar.DAY_OF_WEEK);
         int offset = 3 * (firstDayOfFirstWeek - 1);
