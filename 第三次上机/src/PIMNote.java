@@ -1,14 +1,17 @@
 public class PIMNote extends PIMEntity {
 
-    String noteItem;
+    private String noteItem;
 
+    PIMNote(String inputPriority) {
+        priority = inputPriority;
+    }
     @Override
-    public void setFromString(String s) {
-
+    public void setFromString(String inputItem) {
+        noteItem = inputItem;
     }
 
     @Override
     public String toString() {
-        return "NOTE " + this.Priority + " " + this.noteItem;
+        return "NOTE " + this.priority + " " + this.noteItem;
     }
 }

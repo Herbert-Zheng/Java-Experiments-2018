@@ -2,21 +2,25 @@ import java.util.Date;
 
 public class PIMAppointment extends PIMEntity implements PIMDate {
 
-    Date appointDate;
-    String appointDescribe;
+    private Date appointDate;
+    private String appointDescribe;
+
+    PIMAppointment(String inputPriority){
+        priority = inputPriority;
+    }
 
     @Override
-    public void setFromString(String s) {
-
+    public void setFromString(String inputDescribe) {
+        appointDescribe = inputDescribe;
     }
 
     @Override
     public String toString() {
-        return "APPOINTMENT " + this.Priority + " " + this.appointDate + " " + this.appointDescribe;
+        return "APPOINTMENT " + this.priority + " " + this.appointDate + " " + this.appointDescribe;
     }
 
     @Override
-    public void printDate() {
-
+    public void setMyDate(Date inputDate) {
+        appointDate = inputDate;
     }
 }

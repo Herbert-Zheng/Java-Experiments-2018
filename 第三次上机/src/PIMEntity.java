@@ -1,20 +1,20 @@
 abstract class PIMEntity {
-    String Priority;
+    String priority;
 
     PIMEntity() {
-        Priority = "Normal";
+        priority = "Normal";
     }
 
     PIMEntity(String priority) {
-        Priority = priority;
+        this.priority = priority;
     }
 
     public String getPriority() {
-        return Priority;
+        return priority;
     }
 
     public void setPriority(String p) {
-        Priority = p;
+        priority = p;
     }
 
     // Each PIMEntity needs to be able to set all state information

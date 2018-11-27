@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public interface PIMDate {
-    void printDate();
+    void setMyDate(Date inputDate);
 }

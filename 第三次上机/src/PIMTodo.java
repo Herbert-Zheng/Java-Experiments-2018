@@ -2,21 +2,25 @@ import java.util.Date;
 
 public class PIMTodo extends PIMEntity implements PIMDate {
 
-    String todoItem;
-    Date todoDate;
+    private String todoItem;
+    private Date todoDate;
+
+    PIMTodo(String inputPriority) {
+        priority = inputPriority;
+    }
 
     @Override
-    public void setFromString(String s) {
-        todoItem = s;
+    public void setFromString(String inputItem) {
+        todoItem = inputItem;
     }
 
     @Override
     public String toString() {
-        return "TODO " + this.Priority + " " + this.todoDate + " " + this.todoItem;
+        return "TODO " + this.priority + " " + this.todoDate + " " + this.todoItem;
     }
 
     @Override
-    public void printDate() {
-
+    public void setMyDate(Date inputDate) {
+        todoDate = inputDate;
     }
 }
